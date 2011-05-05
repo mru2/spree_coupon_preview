@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_coupon_preview'
-  s.version     = '0.1.0'
+  s.version     = '0.2.0'
   s.summary     = 'Allows a preview of the final price when entering a coupon code'
   s.description = 'Allows a preview of the final price when entering a coupon code'
   s.required_ruby_version = '>= 1.8.7'
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
 
   s.homepage    = 'https://github.com/MrRuru/spree_coupon_preview'
 
-  s.files        = Dir['CHANGELOG', 'README.md', 'LICENSE', 'lib/**/*', 'app/**/*']
+  s.files        = Dir['CHANGELOG', 'README.md', 'LICENSE', 'lib/**/*', 'app/**/*', 'config/**/*', 'public/**/*']
   s.require_path = 'lib'
   s.requirements << 'none'
 
