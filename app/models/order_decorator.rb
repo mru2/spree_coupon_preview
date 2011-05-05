@@ -4,7 +4,6 @@ Order.class_eval do
   # It returns a hash with the following values
   # valid : true or false (if the coupon is valid for this order)
   # amount : the n
-  
   def try_coupon_code(code)
     # Get the former total
     @total = self.total

@@ -2,7 +2,6 @@
 
   // DOM Elements monitored
   var couponCodeInput = 'input#order_coupon_code';
-  var tryCouponButton = 'button#try_coupon';
   var tryCouponCodeOutput = '#total_with_coupon';
 
   // Try a coupon and return the result
@@ -32,7 +31,7 @@
   // Main hook
   $(function() {
         
-    // Binds the coupon trying to the button
+    // Binds the coupon trying to the input field (on focus out)
     $(couponCodeInput).blur(function(){
       tryCoupon();
       return false;
