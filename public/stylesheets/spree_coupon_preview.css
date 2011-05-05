@@ -1,0 +1,9 @@
+#total_with_coupon{
+  font-size:1.5em;
+}
+
+input.loading{
+  background-image: url(../images/ajax_loader.gif);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
